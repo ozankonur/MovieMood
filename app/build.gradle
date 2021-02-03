@@ -38,6 +38,10 @@ android {
 
             def API_BASE_URL_IMAGE = '"https://image.tmdb.org/t/p/w500/"'
             buildConfigField "String", "API_BASE_URL_IMAGE", API_BASE_URL_IMAGE
+
+            def API_KEY = '"8abb11abf63bf9f48700f3e70d6bb7f9"'
+            buildConfigField "String", "API_KEY", API_KEY
+
         }
 
         release {
